@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T22:46:41.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3sdZx1dkb5fWWyRAR3f7" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T22:51:02.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JI5F5g1OTU4D7gKHhI-q" version="24.2.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2715" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-2" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;fontColor=none;noLabel=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="274.5" width="570" height="399" as="geometry" />
+        <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-64" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;align=center;verticalAlign=middle;spacingLeft=0;spacingRight=0;spacingTop=0;spacing=0;arcSize=4;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry y="960" width="700" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-2" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;fontColor=none;noLabel=1;strokeColor=default;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="274.5" width="580" height="399" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-17" value="Page.js&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="470" y="-160" width="160" height="227" as="geometry" />
@@ -176,19 +179,19 @@
           <mxGeometry x="440" y="140" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-4" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px; line-height: 100%;&quot;&gt;search&lt;/h1&gt;&lt;h1 style=&quot;margin: 10px; line-height: 100%; padding-left: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Get the value entered to filter data and display related data&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="320" width="270" height="126.5" as="geometry" />
+          <mxGeometry x="10" y="970" width="270" height="126.5" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-36" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px; line-height: 100%;&quot;&gt;align&lt;/h1&gt;&lt;h1 style=&quot;margin: 10px; line-height: 100%; padding-left: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Get the value entered to change align text in table (Left , Center , Right )&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="730" y="440" width="270" height="126.5" as="geometry" />
+          <mxGeometry x="290" y="970" width="270" height="126.5" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-37" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;data&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: left; margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-weight: 400; white-space-collapse: preserve;&quot;&gt;The array contains many objects of data&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1020" y="320" width="250" height="126.5" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-38" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;border&lt;/h1&gt;&lt;h1 style=&quot;margin: 10px; line-height: 80%; padding-left: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Get the value entered to determine whether to add a border to the table or not.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;" vertex="1" parent="1">
-          <mxGeometry x="730" y="560" width="290" height="126.5" as="geometry" />
+          <mxGeometry x="10" y="1090" width="290" height="126.5" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-43" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;headTable&lt;/h1&gt;&lt;h1 style=&quot;margin: 10px; line-height: 80%; padding-left: 0px; padding-right: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-weight: 400; white-space-collapse: preserve;&quot;&gt;The names of the table headers; to sort them within the table thead&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;" vertex="1" parent="1">
-          <mxGeometry x="730" y="673.5" width="290" height="126.5" as="geometry" />
+          <mxGeometry x="320" y="1100" width="290" height="126.5" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-44" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;keyObject&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: left; margin-top: 0px; line-height: 100%;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#0d0d0d&quot;&gt;&lt;span style=&quot;font-size: 16px; font-weight: 400; white-space-collapse: preserve;&quot;&gt;An array of strings representing the keys of the objects in the data array. These keys are used to access the values of each row object.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;labelBorderColor=default;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="446.5" width="250" height="126.5" as="geometry" />
@@ -228,9 +231,6 @@
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.007;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="Ejn6gaaikQ-Xtd8Uwc8r-2" target="78961159f06e98e8-69">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-64" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;align=center;verticalAlign=middle;spacingLeft=0;spacingRight=0;spacingTop=0;spacing=0;arcSize=4;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

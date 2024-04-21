@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T09:02:59.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="iZ2sgANy0c4P99BsOndH" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T09:03:59.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="tMftXsDbJ-zpvMewTFZG" version="24.2.7" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="5876" dy="3714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3090" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-64" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;align=center;verticalAlign=middle;spacingLeft=0;spacingRight=0;spacingTop=0;spacing=0;arcSize=4;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBorderColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry y="960" width="860" height="670" as="geometry" />
+          <mxGeometry y="960" width="850" height="660" as="geometry" />
         </mxCell>
         <mxCell id="Ejn6gaaikQ-Xtd8Uwc8r-2" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;fontColor=none;noLabel=1;strokeColor=default;arcSize=2;" parent="1" vertex="1">
           <mxGeometry x="-680" y="960" width="580" height="450" as="geometry" />
@@ -282,6 +282,15 @@
         </mxCell>
         <mxCell id="BGc9-rfhwngNxV3TcEdf-46" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;DeleteMultiple&lt;/h1&gt;&lt;p style=&quot;padding-left: 10px; padding-right: 10px; padding-bottom: 10px; line-height: 140%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;When multiple items are selected and &quot;Delete&quot; (حذف) is clicked, this updates the value of &#39;deleteMultiple&#39; to an array containing all the IDs of the selected items, using &#39;setDeleteMultiple&#39;.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;padding-left: 10px; padding-right: 10px; padding-bottom: 10px; line-height: 130%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If the value of &#39;deleteMultiple&#39; changes, a function is triggered to iterate through the array values and filter the data accordingly.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;padding-left: 10px; padding-right: 10px; padding-bottom: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;After deleting all items, the state &#39;deleteMultiple&#39; is updated to empty using &#39;setDeleteMultiple&#39; to exit the function (as a protection against infinite loops).&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;padding-left: 10px; padding-right: 10px; padding-bottom: 10px; line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;In the table page, any change in data updates the data shown in the table.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="1470" y="440" width="570" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BGc9-rfhwngNxV3TcEdf-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGc9-rfhwngNxV3TcEdf-17" target="78961159f06e98e8-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BGc9-rfhwngNxV3TcEdf-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BGc9-rfhwngNxV3TcEdf-31" target="78961159f06e98e8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BGc9-rfhwngNxV3TcEdf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.01;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="78961159f06e98e8-17" target="BQu4C3gWIdR_t5J09sVz-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
